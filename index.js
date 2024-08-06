@@ -21,7 +21,7 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-  origin:["https://x-three-lovat.vercel.app/login"],
+  origin:["https://x-three-lovat.vercel.app/"],
   methods:["GET","POST","PUT","DELETE"],
   credentials: true,
 };
